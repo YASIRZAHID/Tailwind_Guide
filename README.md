@@ -93,15 +93,17 @@ This is the function you will be calling on event from your component in return 
 ```
 
 ## Call this function in your component on an event
+```
 <div  onClick={handleSectionClick}>
 </div>
+```
 
 ## Use this variable to show/hide components like this
 ```
-{showSection === 1 && <div onClick={()=>{handleSectionClick}}>
+{showSection === 1 && <div>
 This component is visible when showSection is 1
 </div>}
-{showSection === 2 && <div onClick={()=>{handleSectionClick}}>
+{showSection === 2 && <div>
 This Component is visible when shoeSection is 2
 </div>}
 
