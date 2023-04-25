@@ -42,7 +42,7 @@ auto - takes space required by the the comonents enclosed
             
         </div> 
 
-# Using image component that adjusts itself on load to accupy available space
+# Using next/Image component that adjusts itself on load to accupy available space
 
 Use with caution Its only for case where you want to inherit parent width
 ```
@@ -55,4 +55,6 @@ Use with caution Its only for case where you want to inherit parent width
         maxWidth: '100%',
         height: 'auto',
     }}
+    </Image>
 ```
+
