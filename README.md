@@ -58,7 +58,7 @@ Use with caution Its only for case where you want to inherit parent width
     </Image>
 ```
 
-# Hiding showing a section
+# Hiding/Showing a section
 
 ## Create a control variable
 Dont forget to add use client at top since this will usestate from react
