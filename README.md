@@ -10,3 +10,13 @@ auto - takes space required by the the comonents enclosed
  </div>
  ``` 
  
+# Creating rows
+1fr  - takes the leftover space 
+auto - takes space required by the the comonents enclosed
+```
+ <div className="container min-h-screen grid grid-rows-[auto,1fr]">
+ <div></div>
+ <div></div>
+ </div>
+ ``` 
+ 
