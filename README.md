@@ -41,3 +41,18 @@ auto - takes space required by the the comonents enclosed
           </div>
             
         </div> 
+
+# Using image component that adjusts itself on load to accupy available space
+
+Use with caution Its only for case where you want to inherit parent width
+```
+    <Image
+    src="/mainpic.svg" 
+    alt="ico" 
+    width={400} 
+    height={30}   
+    style={{
+        maxWidth: '100%',
+        height: 'auto',
+    }}
+```
