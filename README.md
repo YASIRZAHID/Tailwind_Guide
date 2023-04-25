@@ -120,3 +120,27 @@ Some times you might want a component to restore its state you can achieve this 
     };
 ```
 
+# Using Google fonts
+You no more need to make external calls to **google/fonts** library now we have **next/font/google**here are the steps to using fonts internally
+
+## Import your font
+Here font Alata is being imported
+```
+import { Alata } from "next/font/google";
+```
+
+## Create a const object with subsets and weight
+```
+const alata=Alata({
+    subsets:['latin'],
+    weight:"400"
+})
+```
+
+## Assign it to the components className
+Note tht here we added div instead of directly assigning it to h1 classname thats because we might want to use h1 classname for other CSS settings of our text
+```
+<div className={alata.className}>   
+<h1>SAMPLE TEXT</h1>
+</div>
+```
