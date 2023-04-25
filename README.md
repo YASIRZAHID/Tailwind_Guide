@@ -20,3 +20,24 @@ auto - takes space required by the the comonents enclosed
  </div>
  ``` 
  
+# Creating overflow components to stay on screen
+        <div className="container min-h-screen grid grid-rows-[1fr,1fr,1fr,1fr,auto]">  
+          // these divs are tobe repeated equal tp the number of screens your website has
+          <div className=" h-screen ">
+          </div>
+          <div className=" h-screen ">
+          </div>
+          <div className=" h-screen ">
+          </div>
+        
+          <div className=" h-screen  sticky bottom-0 px-1"> // change this property depending on where to stick your component relative to screen
+          <div className="container min-h-screen grid grid-rows-[1fr,auto]">
+          <div >
+          </div>  
+          <div >
+          // main components here
+          </div>
+          </div>
+          </div>
+            
+        </div> 
